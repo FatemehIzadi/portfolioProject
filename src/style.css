@@ -1,11 +1,14 @@
 :root {
-    --branding-color: #668BFF;
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
+    --primary-color: #6687eb;
+    --secondary-color: #d9cff7;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.hello {
+
+  
+body {
+    margin: 60px auto;
+    max-width: 800px;
     font-family: Poppins, sans-serif;
 }
 
@@ -20,16 +23,16 @@
 .name {
     font-family: Poppins, sans-serif;
     vertical-align: bottom;
-    color: var(--branding-color);
+    color: var(--primary-color);
 }
 
 .active {
     font-weight: bold;
-    color: var(--branding-color)
+    color: var(--primary-color)
 }
 
 .btn-branding {
-    background: var(--branding-color);
+    background: var(--primary-color);
     border-radius: 4px;
     color: white;
 }
@@ -46,11 +49,6 @@
 .navbar-brand {
     margin-top: -20px;
 }
-  
-  body {
-    margin: 60px auto;
-    max-width: 800px;
-  }
   
   .primary-link {
     border-radius: 4px;
