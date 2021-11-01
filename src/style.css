@@ -5,7 +5,6 @@
 }
 
 
-  
 body {
     margin: 60px auto;
     max-width: 800px;
@@ -38,7 +37,7 @@ body {
 }
 
 .intro {
-    margin: 200px auto 250px auto;
+    margin: 200px auto 200px auto;
 }
 
 #works {
@@ -171,6 +170,14 @@ body {
   .fab, .far {
     color: var(--primary-color) !important;
   }
+
+  footer {
+    margin: 0 auto 0 auto;
+    bottom: 0px;
+    bottom: 0px;
+    color: var(--primary-color);
+}
+
   @media (max-width: 576px) {
     h1 {
       font-size: 48px;
