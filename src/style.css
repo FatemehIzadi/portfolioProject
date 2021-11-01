@@ -38,7 +38,11 @@ body {
 }
 
 .intro {
-    margin: 300px auto 300px auto;
+    margin: 200px auto 250px auto;
+}
+
+#works {
+  margin-top: 500px;
 }
 
 .my-name {
@@ -145,6 +149,11 @@ body {
   .my-name {
     font-size: 50px;
   }
+
+  .intro-content {
+    margin: 30px;
+  }
+
   @media (max-width: 576px) {
     h1 {
       font-size: 48px;
@@ -164,5 +173,12 @@ body {
       display: block;
       text-align: center;
       margin: 0 20px;
+    }
+
+    #my-pic {
+      margin-left: -100px;
+    }
+    #works {
+     margin-top: 500px;
     }
   }
