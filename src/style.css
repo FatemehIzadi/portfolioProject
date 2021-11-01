@@ -168,7 +168,9 @@ body {
   .about-section {
     margin-top: 100px;;
   }
-
+  .fab, .far {
+    color: var(--primary-color) !important;
+  }
   @media (max-width: 576px) {
     h1 {
       font-size: 48px;
