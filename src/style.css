@@ -42,7 +42,7 @@ body {
 }
 
 #works {
-  margin-top: 500px;
+  margin-top: 100px;
 }
 
 .my-name {
@@ -61,6 +61,17 @@ body {
     text-transform: capitalize;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
+    color: white;
+  }
+
+  .primary-link:hover {
+    color:white;
+  }
+
+  .btn-branding {
+    color: white;
+  }
+  .btn-branding:hover {
     color: white;
   }
   
@@ -154,6 +165,10 @@ body {
     margin: 30px;
   }
 
+  .about-section {
+    margin-top: 100px;;
+  }
+
   @media (max-width: 576px) {
     h1 {
       font-size: 48px;
@@ -177,8 +192,5 @@ body {
 
     #my-pic {
       margin-left: -100px;
-    }
-    #works {
-     margin-top: 500px;
     }
   }
