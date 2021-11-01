@@ -1,13 +1,45 @@
-header {
-    background-color: #FFC107;
+:root {
+    --branding-color: #668BFF;
 }
 
 .hello {
+    font-family: Poppins, sans-serif;
+}
+
+.navbar {
+    margin-right: 20px;
+}
+
+.avatar {
+    margin-left: 20px;
+}
+
+.name {
+    font-family: Poppins, sans-serif;
+    vertical-align: bottom;
+    color: var(--branding-color);
+}
+
+.active {
+    font-weight: bold;
+    color: var(--branding-color)
+}
+
+.btn-branding {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: white;
+}
+
+.intro {
+    margin-top: 300px;;
+}
+
+.my-name {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
 }
 
-.how {
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
+.navbar-brand {
+    margin-top: -20px;
 }
